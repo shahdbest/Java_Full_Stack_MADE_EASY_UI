@@ -1,0 +1,87 @@
+<html>
+
+<head>
+<title> My First Page</title>
+<style type="text/css"> 
+
+td{
+    text-align: center;
+    background-color: aqua;
+}
+
+thead{
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+}
+
+</style>
+
+</head>
+
+
+<body> 
+
+<table width="70%" border="2px">
+<thead> 
+    <th> name</th>
+    <th> roll no</th>
+    <th> address</th>
+    
+</thead>
+<tbody> 
+<tr> 
+<td> virat </td>
+<td> 18 </td>
+<td> Bangalore </td>
+
+</tr>
+
+<tr> 
+<td> virat </td>
+<td> 18 </td>
+<td> Bangalore </td>
+
+</tr>
+
+<tr> 
+<td> virat </td>
+<td> 18 </td>
+<td> Bangalore </td>
+
+</tr><tr> 
+<td> virat </td>
+<td> 18 </td>
+<td> Bangalore </td>
+
+</tr>
+
+<tr> 
+<td> virat </td>
+<td> 18 </td>
+<td> Bangalore </td>
+
+</tr>
+<tr> 
+<td> virat </td>
+<td> 18 </td>
+<td> Bangalore </td>
+
+</tr>
+<tr> 
+<td> virat </td>
+<td> 18 </td>
+<td> Bangalore </td>
+
+</tr>
+
+</tbody>
+
+
+</table>
+
+
+</body>
+
+
+</html>
