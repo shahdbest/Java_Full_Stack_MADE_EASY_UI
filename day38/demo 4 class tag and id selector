@@ -1,0 +1,46 @@
+<html>
+
+<head>
+<title> My First Page</title>
+<style type="text/css"> 
+
+div{
+   
+    background-color: aqua;
+    color: white;
+    font-size: 30px;
+}
+
+
+.test{
+    background-color: red;
+    font-size: 20px;
+}
+
+
+#mytxt{
+    background-color: blue;
+}
+
+</style>
+
+</head>
+
+<body bgcolor="#3250a8"> 
+
+
+
+    <input type="" id="mytxt">
+<p> this is a p tag</p>
+<div> this is a div tag</div>
+
+<p class="test"> this is a p tag with class test</p>
+<p> this p tag </p>
+
+<div class="test"> div with class test </div>
+
+
+</body>
+
+
+</html>
