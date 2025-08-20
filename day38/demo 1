@@ -1,0 +1,45 @@
+<html>
+
+<head>
+<title> My First Page</title>
+
+</head>
+
+<body bgcolor="#3250a8"> 
+
+    <font size="10px" face="algerian" color="yellow"> 
+    Java Full Stack Made Easy
+    </font>
+
+
+    <div> 
+some text here
+    </div>
+
+    <font size="10px" face="algerian" color="yellow"> 
+    Java Full Stack Made Easy
+    </font>
+
+    <div> 
+some other text here
+    </div>
+
+
+        <div> 
+some other text here
+    </div>
+
+    <div> 
+some text here
+    </div>
+
+
+<font size="10px" face="algerian" color="yellow"> 
+    Java Full Stack Made Easy
+    </font>
+
+
+</body>
+
+
+</html>
