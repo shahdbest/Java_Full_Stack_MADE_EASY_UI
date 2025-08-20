@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<title> My First Page</title>
+<style type="text/css"> 
+
+body{
+
+    background-image: url("images/MySQL-Logo.jpg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+div{
+   
+    background-color: aqua;
+    color: white;
+    font-size: 30px;
+}
+
+
+.test{
+    background-color: red;
+    font-size: 20px;
+}
+
+
+#mytxt{
+    background-color: blue;
+}
+
+</style>
+
+</head>
+
+<!-- <body background="images/MySQL-Logo.jpg">  -->
+
+<body> 
+
+    <input type="" id="mytxt">
+<p> this is a p tag</p>
+<div> this is a div tag</div>
+
+<p class="test"> this is a p tag with class test</p>
+<p> this p tag </p>
+
+<div class="test"> div with class test </div>
+
+
+</body>
+
+
+</html>
