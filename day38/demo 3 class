@@ -1,0 +1,52 @@
+<html>
+
+<head>
+<title> My First Page</title>
+<style type="text/css"> 
+
+.mylogo{
+ color: green;
+ font-family: algerian;
+ font-size: 20px;
+
+}
+
+</style>
+
+</head>
+
+<body bgcolor="#3250a8"> 
+<p class="mylogo">
+    Java Full Stack Made Easy
+</p>
+
+<p> this should not have logo format </p>
+
+    <div class="mylogo"> 
+some text here this is div tag
+    </div>
+
+<p>
+    Java Full Stack Made Easy
+</p>
+    <div> 
+some other text here
+    </div>
+
+
+        <div> 
+some other text here
+    </div>
+
+    <div> 
+some text here
+    </div>
+
+<p> 
+    Java Full Stack Made Easy
+</p>
+
+</body>
+
+
+</html>
