@@ -1,0 +1,44 @@
+<html>
+
+<head>
+<title> My First Page</title>
+<style type="text/css"> 
+
+div{
+    display: none;
+}
+
+a{
+    display: block;
+}
+
+li{
+    display: inline;
+}
+
+
+</style>
+
+</head>
+
+
+<body> 
+<a href=""> test 1</a>
+<a href=""> test 2</a>
+<a href=""> test 3</a>
+
+<ul> 
+<li> item 1</li>
+<li> item 2</li>
+<li> item 3</li>
+<li> item 4</li>
+<li> item 5</li>
+
+    </ul>
+
+<div> this is div</div>
+
+</body>
+
+
+</html>
