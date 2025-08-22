@@ -1,0 +1,32 @@
+<html>
+<head>
+<title> My First Page</title>
+<style type="text/css"> 
+
+div p{
+    background-color: aqua;
+}
+
+</style>
+
+</head>
+
+
+<body> 
+<p> just a p tag  </p>
+
+<div> 
+    this is div
+</div>
+
+<div> 
+
+    this is div
+<p> p within div </p>
+</div>
+
+
+
+</body>
+
+</html>
