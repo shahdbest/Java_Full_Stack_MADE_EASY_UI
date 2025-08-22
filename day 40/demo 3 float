@@ -1,0 +1,34 @@
+<html>
+
+<head>
+<title> My First Page</title>
+<style type="text/css"> 
+
+body{
+    float: left;
+}
+
+img{
+
+    /* float: left; */
+    /* float:right; */
+    float: inherit;
+}
+
+</style>
+
+</head>
+
+
+<body> 
+
+<img src="images/MySQL-Logo.jpg" width="400px">
+
+m just testing the float property of csss .. some text some textsome textsome textsome textsome textsome text
+
+
+
+</body>
+
+
+</html>
