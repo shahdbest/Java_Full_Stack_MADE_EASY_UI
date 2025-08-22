@@ -1,0 +1,43 @@
+<html>
+
+<head>
+<title> My First Page</title>
+<style type="text/css"> 
+
+div{
+display: inline;
+background-color: red;
+height: 100px;
+width: 200px;
+}
+
+.customdiv{
+display: inline-block;
+background-color: green;
+height: 100px;
+width: 200px;
+}
+
+
+
+</style>
+
+</head>
+
+
+<body> 
+
+<div> this is div a</div>
+
+<div> this is div b</div>
+
+
+<div class="customdiv"> this is div c with class</div>
+
+<div class="customdiv"> this is div d with class</div>
+
+
+</body>
+
+
+</html>
