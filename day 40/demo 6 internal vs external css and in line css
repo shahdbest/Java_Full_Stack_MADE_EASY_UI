@@ -1,0 +1,26 @@
+<html>
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css" -->
+
+<head> 
+
+
+<style> 
+body{
+    background-color: aqua;
+}
+
+</style>
+    <link rel="stylesheet" type="text/css" href="css/style.css"
+
+
+</head>
+
+
+
+<!-- <body style="background-color: blue;"> -->
+
+    <body>
+    page 2
+</body>
+
+</html>
