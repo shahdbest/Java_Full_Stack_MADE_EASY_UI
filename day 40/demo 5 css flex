@@ -1,0 +1,55 @@
+<html>
+
+<head>
+<title> My First Page</title>
+<style type="text/css"> 
+
+body{
+    background-color: red;
+}
+
+.flexDemo{
+    display: flex;
+    background-color: blue;
+ 
+}
+
+.flexDemo > div
+{
+    background-color: pink;
+    margin: 20px;
+    padding: 50px;
+
+}
+
+@media(max-width:600px)
+{
+    body{
+        background-color: green;
+    }
+    .flexDemo{
+    flex-direction: column;   
+    }
+}
+
+</style>
+
+</head>
+
+
+<body> 
+
+    <div class="flexDemo"> 
+
+        <div> div 1</div>
+        <div> div 2</div>
+        <div> div 3</div>
+        <div> div 4</div>
+
+    </div>
+
+
+</body>
+
+
+</html>
