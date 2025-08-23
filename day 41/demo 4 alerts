@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- 
+  DOCTYPE declaration tells the browser to use the latest HTML standard (HTML5). 
+  ✅ Compulsory for modern HTML pages. 
+-->
+<html lang="en">
+<head>
+  <!-- 
+    'lang="en"' specifies the language of the page (English in this case). 
+    Helps with accessibility (screen readers) and SEO. 
+    ✅ Recommended but not compulsory. 
+  -->
+
+  <meta charset="UTF-8">
+  <!-- 
+    Defines character encoding as UTF-8 (supports most world languages & symbols). 
+    ✅ Compulsory for modern web pages. 
+  -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 
+    Makes the page responsive: 
+      - width=device-width → fits page width to device screen. 
+      - initial-scale=1.0 → sets default zoom. 
+    ✅ Compulsory if you want mobile-friendly design. 
+  -->
+
+  <title>Bootstrap Starter</title>
+  <!-- 
+    Title of the page (appears in browser tab and search engine results). 
+    ✅ Compulsory (at least some title is recommended). 
+  -->
+
+  <!-- Bootstrap 5.3.7 CSS (via CDN) -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" 
+    crossorigin="anonymous">
+  <!-- 
+    Loads Bootstrap styles directly from CDN (Content Delivery Network). 
+    ✅ Not compulsory, but needed if you want to use Bootstrap. 
+  -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<!-- cdn link for bootstrap icons -->
+</head>
+<body>
+  <!-- BODY: all visible content of the web page goes here -->
+
+  <div class="container text-center mt-5">
+    <!-- 
+      'container' → Bootstrap class to center content and provide spacing. 
+      'text-center' → aligns text to the center. 
+      'mt-5' → adds margin-top spacing (5 is a scale value). 
+      ✅ Bootstrap classes are optional but make styling easier. 
+    -->
+
+    <h1 class="text-primary">Hello, Bootstrap 5!</h1>
+    <!-- 
+      h1 → main heading. 
+      'text-primary' → Bootstrap class that applies the primary theme color (usually blue). 
+      ✅ h1 is recommended (SEO friendly), class is optional. 
+    -->
+
+    <p class="lead">This is a simple starter template using Bootstrap 5.3.7 CDN.</p>
+    <!-- 
+      p → paragraph text. 
+      'lead' → Bootstrap class that makes text slightly larger and lighter for emphasis. 
+      ✅ p is common for text, class is optional. 
+    -->
+
+    <!-- Example Bootstrap Button -->
+    <button class="btn btn-success">Click Me</button>
+    <!-- 
+      button → creates a clickable button. 
+      'btn' → base Bootstrap button style. 
+      'btn-success' → green themed button style. 
+      ✅ Button is optional, classes style it. 
+    -->
+  </div>
+
+  <!-- Bootstrap 5.3.7 JavaScript Bundle (includes Popper.js for tooltips, modals, dropdowns, etc.) -->
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" 
+    crossorigin="anonymous"></script>
+  <!-- 
+    Loads Bootstrap's JavaScript features (like modals, tooltips, dropdowns). 
+    ✅ Needed if you want interactive components. 
+  -->
+
+<!--   our code goes here -->
+
+<div class="alert alert-warning"> this is a warning</div>
+
+<div class="alert alert-success alert-dismissible">
+   data saved
+  <button class="btn-close" data-bs-dismiss="alert"></button>
+  </div>
+
+
+  <div class="alert alert-danger alert-dismissible">
+   data cannot be saved
+  <button class="btn-close" data-bs-dismiss="alert"></button>
+  </div>
+
+
+
+</body>
+</html>
