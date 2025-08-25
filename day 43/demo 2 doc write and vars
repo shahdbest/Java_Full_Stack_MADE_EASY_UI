@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+
+function hello(){
+var oldType="this is var";
+let blockscope="this is let";
+const final="this is const a final variable";
+
+document.write(oldType +"<br>");
+document.write(blockscope+"<br>");
+document.write(final +"<br>");
+
+
+
+}
+</script> 
+
+</head>
+
+  <body>
+
+<button onclick="hello()"> click </button>
+  </body>
+</html>
+ <!-- es5 vs es6
+ es5 -> 2009 -> var , normal function , 'hello'+ name
+es6 -> 2015 -> let const , arrow function , 'hello ${name}' -->
