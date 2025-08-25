@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+
+function hello(){
+
+  document.getElementById('anything').innerHTML="java script is fun"
+
+}
+
+
+</script> 
+
+</head>
+
+  <body>
+<h1 id="anything"> java script </h1>
+
+<button onclick="hello()"> click </button>
+  
+
+</body>
+</html>
+<!-- DOM -> document Object model 
+  tree structure representation of html
+
+  <html>
+    <body>
+      <h1> ... </h1>
+      <p> .... </p>
+    </body>
+      </html>
+//------------------
+
+Document 
+    --HTML 
+      -- body
+        --h1
+        --p1
+          
+-->
