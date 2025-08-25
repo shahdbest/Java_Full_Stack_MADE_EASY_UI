@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+
+function hello(){
+alert('hello world')
+console.log("testing console")
+}
+</script> 
+
+</head>
+
+  <body>
+
+<button onclick="hello()"> click </button>
+  </body>
+</html>
+ <!-- es5 vs es6
+ es5 -> 2009 -> var , normal function , 'hello'+ name
+es6 -> 2015 -> let const , arrow function , 'hello ${name}' -->
