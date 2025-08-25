@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+
+function displayKey(e){
+
+//console.log(e.which) which key is pressed
+
+e.preventDefault();
+
+}
+
+</script> 
+
+</head>
+
+  <body>
+<input type="text" id="txt" onkeypress="displayKey(event)">  
+
+</body>
+</html>
