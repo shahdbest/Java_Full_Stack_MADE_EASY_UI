@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+
+function hello(){
+var oldType="this is var"; // function scoped
+let blockscope="this is let"; // block scoped
+const final="this is const a final variable"; // final var a constant
+
+console.log(oldType );
+console.log(blockscope);
+console.log(final );
+
+oldType='new value';
+console.log(oldType );
+
+//final='new value';//error 
+//console.log(final);
+
+
+for(var y=1;y<2;y++)
+{
+
+}
+console.log('value of y '+y);
+
+
+
+for(let x=1;x<2;x++)
+{
+
+}
+console.log('value of x '+x);
+
+}
+</script> 
+
+</head>
+
+  <body>
+
+<button onclick="hello()"> click </button>
+  </body>
+</html>
+ <!-- es5 vs es6
+ es5 -> 2009 -> var , normal function , 'hello'+ name
+es6 -> 2015 -> let const , arrow function , 'hello ${name}' -->
