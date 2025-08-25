@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+
+
+function validateDob()
+{
+
+  var date=new Date();
+  console.log(date);
+
+  //console.log(date.getFullYear())
+  //console.log(date.getMonth()+1)
+  //console.log(date.getDate())
+
+  let year= date.getFullYear();
+  let month= date.getMonth()+1;
+  let dd= date.getDate();
+
+  if(month < 10)
+  {
+    month='0'+month
+  }
+
+  if(dd < 10)
+  {
+   dd='0'+dd
+  }
+  
+
+  console.log(year+"-"+month+"-"+dd)
+
+
+ document.getElementById('dob').max=year+"-"+month+"-"+dd;
+
+}
+
+</script> 
+
+</head>
+
+  <body onload="validateDob()">
+<input type="text" id="txt" onkeypress="displayKey(event)">  
+
+<label> date of birth</label>
+<input id="dob" type="date" onchange="validateDob()" >
+
+
+</body>
+</html>
