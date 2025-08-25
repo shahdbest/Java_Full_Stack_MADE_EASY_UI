@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+
+function moverData(){
+
+document.querySelector('h1').innerHTML="mouse on me";
+
+}
+
+function reset()
+{
+document.querySelector('h1').innerHTML="java script";
+
+}
+
+
+</script> 
+
+</head>
+
+  <body>
+<h1 onmouseover="moverData()" onmouseout="reset()"> java script </h1>
+
+  
+
+</body>
+</html>
