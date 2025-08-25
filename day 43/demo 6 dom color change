@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+
+function hello(){
+
+//  document.getElementById('anything').innerHTML="java script is fun"
+
+document.body.style.backgroundColor = "blue";
+}
+
+
+</script> 
+
+</head>
+
+  <body>
+<h1 id="anything"> java script </h1>
+
+<button onclick="hello()"> click </button>
+  
+
+</body>
+</html>
