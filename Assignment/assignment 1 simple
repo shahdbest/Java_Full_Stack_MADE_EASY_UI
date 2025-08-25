@@ -1,0 +1,140 @@
+🌐 HTML, CSS, and JavaScript Practice Assignments
+Assignment 1: HTML Form with Validation (JavaScript)
+
+Problem Statement:
+Create a simple registration form with the following fields:
+
+Name
+
+Email
+
+Password
+
+When the user clicks Submit, validate the following:
+
+All fields are mandatory
+
+Email should contain @
+
+Password should be at least 6 characters
+
+Requirements:
+
+Use HTML to design the form
+
+Use CSS to make it neat (center aligned, proper spacing)
+
+Use JavaScript for validation (show alerts or error messages below inputs)
+
+Sample Input & Expected Behavior:
+
+Input: Name = John, Email = john@gmail.com, Password = 12345
+
+Output: Show error → "Password must be at least 6 characters"
+
+Input: Name = ``, Email = abc@xyz.com, Password = abcdef
+
+Output: Show error → "All fields are mandatory"
+
+Input: Name = Sara, Email = sara@abc.com, Password = abcdefg
+
+Output: Show message → "Form submitted successfully!"
+
+Assignment 2: CSS Styling with Hover Effect
+
+Problem Statement:
+Create a navigation bar with 4 links: Home, About, Services, Contact.
+
+Apply CSS so that when the user hovers over a link, its background changes color.
+
+Requirements:
+
+Use HTML <nav> and <ul> for navigation bar
+
+Use CSS hover effect
+
+Links should be horizontally aligned
+
+Expected Behavior:
+
+Before hover: Links have a gray background
+
+On hover: The hovered link turns blue with white text
+
+Assignment 3: JavaScript DOM Manipulation (Change Theme)
+
+Problem Statement:
+Create a page with a button that toggles between Light Mode and Dark Mode.
+
+Requirements:
+
+Default: Page in light mode (white background, black text)
+
+On button click → switch to dark mode (black background, white text)
+
+Button text should also change accordingly (Switch to Dark Mode → Switch to Light Mode)
+
+Sample Input & Expected Behavior:
+
+Initial: Page loads → white background
+
+User clicks button → background turns black, text turns white
+
+User clicks again → switches back to white background
+
+Assignment 4: HTML Table with CSS Styling
+
+Problem Statement:
+Create an HTML table that displays a list of students with columns: Name, Age, Grade.
+
+Requirements:
+
+Use bordered table with alternating row colors (zebra effect) using CSS
+
+Add hover effect: when hovering over a row, highlight it with yellow background
+
+Table must be neatly aligned in center
+
+Sample Data (Input):
+
+Name	Age	Grade
+John	20	A
+Sara	19	B
+Mike	22	A+
+
+Expected Behavior:
+
+Rows alternate white/gray background
+
+On hover → row turns yellow
+
+Assignment 5: JavaScript Event Handling – Counter App
+
+Problem Statement:
+Create a simple counter with two buttons: Increment and Decrement.
+
+Requirements:
+
+Use HTML <button> and <p> to display counter value
+
+Initial counter value = 0
+
+Clicking Increment → increases value by 1
+
+Clicking Decrement → decreases value by 1
+
+Counter should never go below 0
+
+Sample Input & Expected Behavior:
+
+Initial: Counter = 0
+
+Click "Increment" → Counter = 1
+
+Click "Increment" again → Counter = 2
+
+Click "Decrement" → Counter = 1
+
+Click "Decrement" again → Counter = 0
+
+Click "Decrement" again → stays at 0
