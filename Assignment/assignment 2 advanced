@@ -1,0 +1,107 @@
+🌐 Advanced HTML, CSS, and JavaScript Practice Assignments
+Assignment 6: To-Do List App
+
+Problem Statement:
+Create a To-Do List where users can add tasks and mark them as completed.
+
+Requirements:
+
+Input box + "Add Task" button
+
+New tasks should appear in a list
+
+Clicking a task should strike it through (completed)
+
+Add a "Delete" button next to each task
+
+Expected Behavior:
+
+Input: "Buy milk" → List shows Buy milk
+
+Click on Buy milk → shows strikethrough
+
+Click "Delete" → removes the task
+
+Assignment 7: Image Gallery with Modal Preview
+
+Problem Statement:
+Create an image gallery with 4 small images. When a user clicks an image, it should open in a bigger modal (popup).
+
+Requirements:
+
+Use HTML <img> tags in a grid layout
+
+Use CSS for styling (borders, spacing)
+
+Use JavaScript for modal functionality (open & close)
+
+Expected Behavior:
+
+Clicking an image → Opens a larger preview in the center
+
+Clicking outside/close button → Closes modal
+
+Assignment 8: Dropdown Menu with CSS + JavaScript
+
+Problem Statement:
+Create a navigation bar with a dropdown menu under "Services".
+
+Requirements:
+
+HTML <nav> with Home, About, Services, Contact
+
+Under Services → dropdown with "Web Development", "App Development", "SEO"
+
+Use CSS for styling dropdown
+
+Use JavaScript so clicking outside closes the dropdown
+
+Expected Behavior:
+
+Hover over Services → dropdown opens
+
+Click outside → dropdown closes
+
+Assignment 9: Stopwatch App (JavaScript Timing)
+
+Problem Statement:
+Create a stopwatch with Start, Stop, and Reset buttons.
+
+Requirements:
+
+Show elapsed time in seconds
+
+Start → begins counting
+
+Stop → pauses
+
+Reset → resets counter to 0
+
+Expected Behavior:
+
+Initial: 0
+
+Click Start → 1, 2, 3…
+
+Click Stop → timer freezes
+
+Click Reset → back to 0
+
+Assignment 10: Responsive Layout with Media Queries
+
+Problem Statement:
+Design a simple webpage with 2 sections: sidebar and content area. Make it responsive using CSS.
+
+Requirements:
+
+On large screens → sidebar on the left, content on right
+
+On small screens (<600px) → sidebar should move above content
+
+Use CSS flexbox + media queries
+
+Expected Behavior:
+
+Desktop: Sidebar (30% width) + Content (70% width)
+
+Mobile: Sidebar on top (100% width), Content below (100% width)
