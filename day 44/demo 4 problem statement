@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+
+function displayKey(e){
+
+//console.log(e.which) which key is pressed
+
+if(!(e.which >=65 && e.which <= 91))
+
+e.preventDefault();
+
+}
+
+function validateDob()
+{
+  console.log('on change');
+
+var val= document.getElementById('dob').value;
+console.log(val)
+
+ document.getElementById('dob').max="2025-08-26";
+
+}
+
+</script> 
+
+</head>
+
+  <body onload="validateDob()">
+<input type="text" id="txt" onkeypress="displayKey(event)">  
+
+<label> date of birth</label>
+<input id="dob" type="date" onchange="validateDob()" >
+
+
+</body>
+</html>
