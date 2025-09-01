@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <script>
+
+    function fetchData(callback){
+      console.log("fetching Player Info");
+    
+    
+
+setTimeout( function(){
+
+   let player={name:"virat",role:"batsman"};
+    callback(player)
+
+    },4000)
+  }
+  
+fetchData(function(player){
+console.log("player : ",player.name +" is a  "+player.role)
+});
+
+  </script>
+  
+</head>
+<body>
+
+
+
+</body>
+</html>
