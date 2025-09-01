@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <script>
+
+class Player{
+
+  constructor(){
+    console.log("i am the constructor")
+  }
+
+   name="virat"
+  oldFun()
+  {
+    console.log(this.name)
+  }
+
+}
+
+  player=new Player();
+    player.oldFun();
+    //player.arrowFun();
+</script>
+  
+</head>
+<body>
+
+
+
+</body>
+</html>
