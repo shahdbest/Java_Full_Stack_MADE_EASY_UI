@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+
+  <button id="btn"> click </button>
+
+  <script>
+
+document.getElementById("btn").
+addEventListener("click",()=>{
+  console.log("the button clicked")
+})
+
+
+</script> 
+
+</body>
+</html>
