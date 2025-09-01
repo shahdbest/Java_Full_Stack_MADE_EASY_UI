@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+
+
+console.log("start of my js ");
+
+setTimeout( function(){ 
+  console.log("this will run after 2 seconds")
+},5000 )
+
+console.log("end of my js ");
+
+
+</script> 
+
+</head>
+
+
+</body>
+</html>
