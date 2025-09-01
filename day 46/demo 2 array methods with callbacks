@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <script>
+
+let numbers=[1,2,3,4,5]
+
+    numbers.forEach(function(num)
+    {
+      console.log("number : "+num);
+    }
+  )
+
+
+  //map
+    let squared = numbers.map(
+      function(num)
+    {
+           return  (num*num);
+    }
+    )
+
+ console.log("Squared : "+squared);
+
+
+
+  </script>
+  
+</head>
+<body>
+
+
+
+</body>
+</html>
