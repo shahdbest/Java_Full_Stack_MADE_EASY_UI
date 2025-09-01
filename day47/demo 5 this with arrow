@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <script>
+let player=
+    {
+      name:"virat",
+      role:"batsman",
+
+     oldFun: function(){
+      console.log(this.name)
+     },
+      arrowFun: ()=>{
+              console.log(this.name)
+              //undefined : coz arrow dont have its own this
+      }
+    }
+
+    player.oldFun();
+    player.arrowFun();
+</script>
+  
+</head>
+<body>
+
+
+
+</body>
+</html>
