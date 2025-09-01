@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <script>
+
+let number=[1,2,3,4,5];
+
+let squared= number.map( n =>n*n)
+
+let even= number.filter( n =>n%2==0)
+
+console.log(squared)
+console.log(even)
+</script>
+  
+</head>
+<body>
+
+
+
+</body>
+</html>
