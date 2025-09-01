@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <script>
+
+//normal function
+function add(a,b)
+{
+  return a+b;
+}
+
+//arrow function
+let result= (a,b)=> a+b;
+
+console.log(add(10,20))
+console.log(result(70,30))
+
+
+  </script>
+  
+</head>
+<body>
+
+
+
+</body>
+</html>
