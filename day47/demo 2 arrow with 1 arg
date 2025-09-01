@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <script>
+
+let square=x=>x*x
+
+console.log(square(2))
+
+console.log(square(4))
+
+console.log(square(5))
+
+
+
+  </script>
+  
+</head>
+<body>
+
+
+
+</body>
+</html>
