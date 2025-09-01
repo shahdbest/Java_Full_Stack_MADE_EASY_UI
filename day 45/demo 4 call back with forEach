@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+// function call backs
+// A callback is just a function we pass into another functions
+//to run some code after the main functions completes
+
+let names=['virat','rohit','surya']
+
+names.forEach(disp);
+
+
+function disp(name){
+  console.log(name)
+}
+
+</script> 
+
+</head>
+
+
+</body>
+</html>
