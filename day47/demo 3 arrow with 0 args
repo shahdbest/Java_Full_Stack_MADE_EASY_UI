@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <script>
+
+let sayHello= ()=> console.log("welcome user");
+
+sayHello();
+
+  </script>
+  
+</head>
+<body>
+
+
+
+</body>
+</html>
