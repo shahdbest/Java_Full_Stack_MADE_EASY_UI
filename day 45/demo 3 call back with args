@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+// function call backs
+// A callback is just a function we pass into another functions
+//to run some code after the main functions completes
+
+
+function greet(name , callback)
+{
+  callback(name)// callback
+}
+
+function sayHello(name){
+  console.log("hello !! "+name)
+}
+
+greet("virat",sayHello)
+
+</script> 
+
+</head>
+
+
+</body>
+</html>
